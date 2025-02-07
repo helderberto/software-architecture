@@ -6,3 +6,4 @@ Useful templates for frontend architecture documents.
 
 - [Architecture Decision Record](./architecture-decision-record.md)
 - [Design Document](./design-document.md)
+- [Domain Model](./domain-model.md)
