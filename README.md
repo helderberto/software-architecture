@@ -12,3 +12,4 @@ Useful template documents and resources on Software Architecture.
 - [Design Patterns](https://refactoring.guru/design-patterns)
 - [Refactoring](https://refactoring.guru/refactoring)
 - [Clean Architecture](https://www.patterns.dev/)
+- [ADRs examples for software planning, IT leadership, and template documentation](https://github.com/joelparkerhenderson/architecture-decision-record/tree/main)
