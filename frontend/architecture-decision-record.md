@@ -1,183 +1,141 @@
-# ADR-[number]: [Title of Architecture Decision]
+# ADR-[number]: [Frontend Architecture Decision Title]
 
 **Date:** YYYY-MM-DD <br />
 **Status:** Proposed | Accepted | Deprecated | Superseded <br />
-**Deciders:** [List of team members involved in the decision] <br />
-**Technical Story:** [Ticket/Issue/Story reference number] <br />
+**Deciders:** [Names of frontend team members] <br />
+**Technical Story:** [Reference to frontend-related ticket/issue] <br />
 
 ## Context
 
-_What is the issue that we're seeing that is motivating this decision or change?_
+Frontend-specific description of:
 
-- Current frontend technical context
-- Business requirements driving this decision
-- System constraints and requirements
-- User experience considerations
-- Performance requirements
-- Technical limitations
+- Current frontend architecture
+- UI/UX challenges to solve
+- User experience needs
+- Browser/device constraints
+- Performance baseline
+- Development timeline
 
 ## Decision Drivers
 
-- Performance metrics requirements
-- Developer experience impact
-- Time to market considerations
-- Maintenance overhead
-- Bundle size implications
-- Browser support requirements
-- Team expertise and learning curve
-- Cost implications
-- Scalability needs
+Key frontend factors:
 
-## Considered Options
+- Core Web Vitals requirements
+- Browser compatibility needs
+- Frontend team expertise
+- UI/UX requirements
+- Development velocity needs
+- Bundle size constraints
+- Accessibility requirements
+- Mobile responsiveness needs
 
-### Option 1: [Option Name]
+## Options Considered
+
+### Option 1: [Frontend Solution Name]
+
+**Overview:** Brief description of the frontend solution
 
 **Pros:**
 
-- List of benefits
-- Performance improvements
+- Performance benefits
 - Developer experience advantages
-- Maintenance benefits
+- Bundle size improvements
+- Browser compatibility benefits
 
 **Cons:**
 
-- List of drawbacks
 - Technical limitations
-- Learning curve
-- Implementation challenges
+- Learning curve challenges
+- Migration complexity
+- Potential performance impacts
 
-**Notable Details:**
+### Option 2: [Alternative Frontend Solution]
 
-```ts
-// Example implementation code or type definitions
-interface ExampleImplementation {
-  key: string;
-  config: {
-    feature: boolean;
-    options: string[];
-  };
-}
-```
-
-### Option 2: [Option Name]
-
-[Similar structure as Option 1]
+[Same structure as Option 1]
 
 ## Decision
 
-_What is the change that we're proposing and/or doing?_
+Clear statement of the chosen frontend solution and technical rationale.
 
-- Selected approach
-- Implementation strategy
-- Migration path
-- Timeline considerations
+## Technical Implementation
 
-## Technical Details
+### Frontend Architecture
 
-### Architecture Impact
+- UI framework/library selection
+- Component architecture approach
+- State management solution
+- Styling methodology
+- Build tooling choices
+- Module bundling strategy
 
-```typescript
-// Example of architectural changes
-interface NewArchitecture {
-  component: {
-    name: string;
-    type: 'atomic' | 'composite';
-    dependencies: string[];
-  };
-  state: {
-    scope: 'local' | 'global';
-    management: 'redux' | 'context' | 'signals';
-  };
-}
-```
+### Key Technical Considerations
 
-### Performance Implications
-
-- Bundle size impact
-- Runtime performance changes
-- Memory usage considerations
-- Network payload changes
-
-### Security Considerations
-
-- Authentication changes
-- Authorization impacts
-- Data protection measures
-- Security best practices
+- Client-side performance
+- Server-side rendering needs
+- Browser caching strategy
+- Asset optimization approach
+- Testing methodology
+- Frontend security measures
 
 ## Consequences
 
 ### Positive
 
-- Improved performance metrics
+- Performance improvements
 - Better developer experience
-- Reduced maintenance overhead
-- Enhanced user experience
-- Better scalability
+- Reduced bundle size
+- Improved user experience
+- Enhanced accessibility
 
 ### Negative
 
-- Initial implementation complexity
-- Learning curve for the team
 - Migration challenges
-- Potential technical debt
-
-### Neutral
-
-- Changes in development workflow
-- Documentation requirements
-- Testing strategy adjustments
+- Learning requirements
+- Build complexity
+- Technical debt considerations
 
 ## Implementation Plan
 
-### Phase 1: Initial Setup
+### Phase 1: Frontend Setup
 
-```ts
-// Example implementation steps
-interface ImplementationStep {
-  phase: number;
-  tasks: string[];
-  dependencies: string[];
-  estimatedEffort: string;
-}
-```
+- Development environment setup
+- Component library setup
+- Build pipeline configuration
+- Testing framework setup
 
-### Phase 2: Migration Strategy
+### Phase 2: Frontend Rollout
 
-- Step-by-step migration plan
-- Rollback procedures
-- Testing requirements
+- Component migration strategy
+- Progressive enhancement approach
+- Feature flag implementation
+- Performance monitoring setup
 
-### Phase 3: Validation
+## Success Metrics
 
-- Success criteria
-- Performance benchmarks
-- Quality metrics
+### Performance Metrics
 
-## Monitoring and Metrics
+- First Contentful Paint (FCP)
+- Largest Contentful Paint (LCP)
+- Time to Interactive (TTI)
+- Cumulative Layout Shift (CLS)
 
-- Key performance indicators
-- Monitoring tools
-- Alert thresholds
-- Success metrics
+### Development Metrics
 
-## Related Decisions
+- Build time
+- Bundle size
+- Test coverage
+- Development velocity
 
-- Link to related ADRs
-- Dependencies on other architectural decisions
-- Impact on existing architecture
+### User Experience Metrics
 
-## Notes
-
-- Special considerations
-- Team feedback
-- Proof of concept results
-- Research findings
+- User engagement
+- Error rates
+- Conversion rates
+- Accessibility scores
 
 ## References
 
-- Technical documentation
-- Research papers
-- Community discussions
-- Similar implementations
-- Benchmarks and tests
+- Frontend documentation
+- Performance benchmarks
+- Browser compatibility data
+- Accessibility guidelines
