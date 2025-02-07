@@ -2,9 +2,9 @@
 
 Useful template documents and resources on Software Architecture.
 
-## Frontend
+## Table of Contents
 
-- [Design Document](./frontend/design-document.md)
+- [Frontend Architecture Documents](./frontend/index.md)
 
 ## Resources
 
